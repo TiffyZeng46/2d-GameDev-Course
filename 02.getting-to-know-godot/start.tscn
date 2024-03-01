@@ -15,12 +15,14 @@ script = ExtResource("2")
 tile_set = ExtResource("2_vnf5n")
 format = 2
 layer_0/name = "Bridges"
+layer_0/tile_data = PackedInt32Array(-524273, 327680, 1, -458737, 196608, 1, -393201, 196608, 1, -327665, 131072, 0, -327664, 0, 1, -327663, 0, 0, -262127, 196608, 1, -196591, 196608, 1, -131055, 262144, 1, 4, 65536, 1, 5, 0, 1, 6, 0, 1, 7, 0, 0, 65543, 196608, 1, 131079, 196608, 1, 196615, 131072, 0, 196616, 0, 1, 196617, 131072, 1)
 metadata/_edit_lock_ = true
 
 [node name="InvisibleWalls" type="TileMap" parent="."]
 tile_set = ExtResource("3")
 format = 2
 layer_0/name = "Invisible walls"
+layer_0/tile_data = PackedInt32Array(-65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 0, 0, 8, 0, 0, 65544, 0, 0, 131080, 0, 0, 65541, 0, 0, 65542, 0, 0, 131078, 0, 0, 196614, 0, 0, 262150, 0, 0, 262151, 0, 0, 262152, 0, 0, -458738, 0, 0, -393202, 0, 0, -327666, 0, 0, -262130, 0, 0, -262129, 0, 0, -262128, 0, 0, -196592, 0, 0, -458736, 0, 0, -393200, 0, 0, -393199, 0, 0, -393198, 0, 0, -327662, 0, 0, -262126, 0, 0, -196590, 0, 0)
 metadata/_edit_lock_ = true
 
 [node name="Player" parent="." instance=ExtResource("4_yun3d")]
@@ -33,4 +35,4 @@ position = Vector2(-896, -512)
 position = Vector2(1280, -128)
 
 [node name="RoomC" parent="." instance=ExtResource("7_3eimw")]
-position = Vector2(896, -2176)
+position = Vector2(747, -2422)
