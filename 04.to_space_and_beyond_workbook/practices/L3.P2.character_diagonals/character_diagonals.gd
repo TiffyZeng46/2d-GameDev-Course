@@ -10,13 +10,11 @@ var direction := Vector2(0, 0)
 func _process(delta: float) -> void:
 	direction.x = Input.get_axis("move_left", "move_right")
 	direction.y = Input.get_axis("move_up", "move_down")
-	
-	if direction.length() > 1.0:
-		direction = direction.normalized()
 
 	# The character is way too fast, but only when moving diagonally!
 	# Add code to prevent that.
-
+	if direction.length() > 0:
+		direction = direction.normalized()
 	velocity = direction * max_speed
 	position += velocity * delta
 	if velocity.length() > 0.0:

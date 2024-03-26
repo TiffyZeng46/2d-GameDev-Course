@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://dvisnt1d6gjje"]
+[gd_scene load_steps=8 format=3 uid="uid://o1dgmjjqrb3g"]
 
 [ext_resource type="Texture2D" uid="uid://d1xp2mgpkkc42" path="res://assets/practice_assets/shape_ship.png" id="1_5oe5f"]
-[ext_resource type="Script" path="res://practices/L3.P2.character_diagonals/character_diagonals.gd" id="2_dvn2d"]
+[ext_resource type="Script" path="res://practices/L3.P2.character_diagonals/character_diagonals.gd" id="2_udpmb"]
 [ext_resource type="Texture2D" uid="uid://bkueifls7csiy" path="res://assets/practice_assets/ellipse_white.png" id="3_luk4c"]
 [ext_resource type="Texture2D" uid="uid://ci5b253al1tus" path="res://assets/practice_assets/ellipse_yellow.png" id="4_nsdhc"]
 
@@ -22,7 +22,7 @@ scale_curve = SubResource("CurveTexture_7c1vm")
 position = Vector2(960, 540)
 texture = ExtResource("1_5oe5f")
 offset = Vector2(10, 0)
-script = ExtResource("2_dvn2d")
+script = ExtResource("2_udpmb")
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="."]
 modulate = Color(0.584314, 0.380392, 0.933333, 1)

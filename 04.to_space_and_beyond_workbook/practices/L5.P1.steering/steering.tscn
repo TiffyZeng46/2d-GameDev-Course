@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dknskf7qiqh8i"]
+[gd_scene load_steps=8 format=3 uid="uid://blmj074k45cwe"]
 
 [ext_resource type="Texture2D" uid="uid://d1xp2mgpkkc42" path="res://assets/practice_assets/shape_ship.png" id="1_43x22"]
 [ext_resource type="Script" path="res://practices/L5.P1.steering/steering.gd" id="2_fdpd8"]

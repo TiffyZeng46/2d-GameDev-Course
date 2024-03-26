@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://mwmi4w30o8cc"]
+[gd_scene load_steps=8 format=3 uid="uid://bqdsf72khau2e"]
 
 [ext_resource type="Texture2D" uid="uid://d1xp2mgpkkc42" path="res://assets/practice_assets/shape_ship.png" id="1_tl7du"]
 [ext_resource type="Script" path="res://practices/L4.P1.boosting_circle/boosting_circle.gd" id="2_6jfxp"]
@@ -49,6 +49,5 @@ grow_vertical = 2
 color = Color(0.364706, 0.12549, 0.776471, 1)
 
 [node name="Timer" type="Timer" parent="."]
-one_shot = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

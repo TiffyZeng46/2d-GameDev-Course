@@ -18,6 +18,7 @@ func _process(delta: float) -> void:
 	var desired_velocity := max_speed * direction
 	var steering_vector := desired_velocity - velocity
 	velocity += steering_vector * steering_factor * delta
+	
 	position += velocity * delta
 
 	if direction.length() > 0.0:
