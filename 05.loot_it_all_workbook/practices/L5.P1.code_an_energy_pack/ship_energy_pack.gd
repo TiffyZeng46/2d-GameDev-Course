@@ -8,7 +8,10 @@ var energy := 20.0
 
 
 func _ready() -> void:
-	get_node("UI/EnergyBar").value = energy
+	area_entered.connect(_on_area_entered)
+	
+	
+	set_energy(energy)
 
 
 func _process(delta: float) -> void:
@@ -23,5 +26,12 @@ func _process(delta: float) -> void:
 		get_node("Sprite2D").rotation = velocity.angle()
 
 
-func _on_area_entered(area: Area2D) -> void:
-	pass
+func set_energy(new_energy: int) -> void:
+	energy = new_energy
+	get_node("UI/EnergyBar").value = energy
+	
+func _on_area_entered(_area_that_entered: Area2D) -> void:
+	set_energy(energy + 20)
+	
+	
+
