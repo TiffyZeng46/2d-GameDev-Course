@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://b1h7qmn1m58fq" path="res://practices/L3.P2.sting_the_balloon/balloon_sting.tscn" id="1_cq1j7"]
 [ext_resource type="Shader" path="res://addons/gdquest_practice_framework/practice_solutions/L3.P2.sting_the_balloon/group_outline.gdshader" id="2_l6rsy"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_m10xs"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tlu52"]
 resource_local_to_scene = true
 shader = ExtResource("2_l6rsy")
 shader_parameter/line_color = Color(0, 0, 0, 1)
@@ -14,7 +14,7 @@ shader_parameter/viewport_scale = Vector2(1, 1)
 metadata/_edit_horizontal_guides_ = []
 
 [node name="BalloonSting" parent="." instance=ExtResource("1_cq1j7")]
-material = SubResource("ShaderMaterial_m10xs")
+material = SubResource("ShaderMaterial_tlu52")
 
 [node name="ExtraVisuals" type="Node" parent="."]
 
